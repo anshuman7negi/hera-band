@@ -1,0 +1,286 @@
+.services {
+  color: #2d3748;
+  margin-top: 5rem;
+}
+
+/* Hero Section */
+.services-hero {
+  background: linear-gradient(135deg, #c53030, #d69e2e);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.services-hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.services-hero p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Services Content */
+.services-content {
+  padding: 4rem 0;
+  background: #f7fafc;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.service-image {
+  height: 250px;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.1);
+}
+
+.service-content {
+  padding: 2rem;
+}
+
+.service-content h3 {
+  font-size: 1.8rem;
+  color: #c53030;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.service-content p {
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.service-features li {
+  padding: 0.5rem 0;
+  color: #4a5568;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.service-features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #d69e2e;
+  font-weight: bold;
+}
+
+.know-more-btn {
+  background: linear-gradient(135deg, #c53030, #d69e2e);
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.know-more-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(197, 48, 48, 0.3);
+}
+
+/* Service Areas */
+.service-areas {
+  padding: 4rem 0;
+  background: white;
+}
+
+.service-areas h2 {
+  font-size: 2.5rem;
+  color: #c53030;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.areas-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.area-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #f7fafc;
+  border-radius: 15px;
+  border-left: 4px solid #d69e2e;
+  transition: all 0.3s ease;
+}
+
+.area-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.area-item i {
+  color: #c53030;
+  font-size: 1.5rem;
+}
+
+.area-item span {
+  font-size: 1.1rem;
+  color: #2d3748;
+  font-weight: 500;
+}
+
+/* Pricing Info */
+.pricing-info {
+  padding: 4rem 0;
+  background: linear-gradient(135deg, #2d3748, #1a202c);
+  color: white;
+}
+
+.pricing-info h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #d69e2e;
+}
+
+.pricing-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-content p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.pricing-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.pricing-features .feature {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.pricing-features .feature i {
+  color: #d69e2e;
+  font-size: 1.2rem;
+}
+
+.pricing-features .feature span {
+  font-size: 1rem;
+}
+
+.cta-button {
+  background: #d69e2e;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cta-button:hover {
+  background: #c53030;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .services-hero p {
+    font-size: 1.1rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .areas-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .pricing-features {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-hero {
+    padding: 2rem 0;
+  }
+  
+  .services-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .services-content,
+  .service-areas,
+  .pricing-info {
+    padding: 2rem 0;
+  }
+  
+  .service-content {
+    padding: 1.5rem;
+  }
+}
