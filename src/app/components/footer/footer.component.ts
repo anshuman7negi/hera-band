@@ -11,13 +11,13 @@ import { CommonModule } from '@angular/common';
       <div class="container">
         <div class="footer-content">
           <div class="footer-section">
-            <h3>Hera Band</h3>
+            <h3>Herra Band</h3>
             <p>Premier wedding and event band serving Ramnagar, Jim Corbett, Nainital, and across Uttarakhand.</p>
             <div class="social-links">
-              <a href="https://facebook.com/heraband" target="_blank" aria-label="Facebook">
+              <a href="https://facebook.com/Herraband" target="_blank" aria-label="Facebook">
                 <i class="fab fa-facebook"></i>
               </a>
-              <a href="https://instagram.com/heraband" target="_blank" aria-label="Instagram">
+              <a href="https://instagram.com/Herraband" target="_blank" aria-label="Instagram">
                 <i class="fab fa-instagram"></i>
               </a>
             </div>
@@ -50,13 +50,13 @@ import { CommonModule } from '@angular/common';
             <div class="contact-info">
               <p><i class="fas fa-map-marker-alt"></i> Ramnagar, Uttarakhand, India</p>
               <p><i class="fas fa-phone"></i> <a href="tel:+919876543210">+91 98765 43210</a></p>
-              <p><i class="fas fa-envelope"></i> <a href="mailto:info@heraband.com">info@heraband.com</a></p>
+              <p><i class="fas fa-envelope"></i> <a href="mailto:info@Herraband.com">info@Herraband.com</a></p>
             </div>
           </div>
         </div>
         
         <div class="footer-bottom">
-          <p>&copy; 2024 Hera Band. All rights reserved. | Wedding & Event Band in Uttarakhand</p>
+          <p>&copy; 2024 Herra Band. All rights reserved. | Wedding & Event Band in Uttarakhand</p>
         </div>
       </div>
     </footer>

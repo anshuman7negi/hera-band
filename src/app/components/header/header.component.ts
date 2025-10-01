@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
     <header class="header">
       <div class="container">
         <div class="nav-brand">
-          <h1>Hera Band</h1>
+          <h1>HEERA BAND</h1>
           <span>Wedding & Event Specialists</span>
         </div>
         

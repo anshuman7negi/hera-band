@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `
     <div class="whatsapp-float">
-      <a href="https://wa.me/919876543210?text=Hello%20Hera%20Band!%20I'm%20interested%20in%20your%20wedding%20services." 
+      <a href="https://wa.me/919258121224?text=Hello%20Hera%20Band!%20I'm%20interested%20in%20your%20wedding%20services." 
          target="_blank" 
          class="whatsapp-btn"
          aria-label="Contact us on WhatsApp">

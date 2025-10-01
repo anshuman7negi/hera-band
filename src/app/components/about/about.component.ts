@@ -11,8 +11,8 @@ import { SeoService } from '../../services/seo.service';
       <!-- Hero Section -->
       <section class="about-hero">
         <div class="container">
-          <h1>About Hera Band</h1>
-          <p>Our passion lies in transforming weddings into cherished memories—filled with rhythm, energy, and vibrant cultural touch. With Hera Band, your event is not just organized; it’s celebrated with heart, music, and tradition. Because every wedding deserves the magic of Hera Band.</p>
+          <h1>About Herra Band</h1>
+          <p>Our passion lies in transforming weddings into cherished memories—filled with rhythm, energy, and vibrant cultural touch. With Herra Band, your event is not just organized; it’s celebrated with heart, music, and tradition. Because every wedding deserves the magic of Herra Band.</p>
         </div>
       </section>
  
@@ -23,7 +23,7 @@ import { SeoService } from '../../services/seo.service';
             <div class="about-text">
               <h2>Our Story</h2>
               <p>
-                Hera Band has been the heart of wedding celebrations across Uttarakhand for over a decade. 
+                Herra Band has been the heart of wedding celebrations across Uttarakhand for over a decade. 
                 Founded with a passion for traditional Indian music and cultural celebrations, we have grown 
                 to become one of the most trusted names in wedding entertainment in the region.
               </p>
@@ -38,7 +38,7 @@ import { SeoService } from '../../services/seo.service';
               </p>
             </div>
             <div class="about-image">
-              <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg" alt="Hera Band Team" />
+              <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg" alt="Herra Band Team" />
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ import { SeoService } from '../../services/seo.service';
       <!-- Why Choose Us -->
       <section class="why-choose-us">
         <div class="container">
-          <h2>Why Choose Hera Band?</h2>
+          <h2>Why Choose Herra Band?</h2>
           <div class="features-grid">
             <div class="feature" *ngFor="let feature of features">
               <div class="feature-icon">
@@ -148,9 +148,9 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
     this.seoService.updateSEO({
-      title: 'About Hera Band - Traditional Wedding Band in Uttarakhand | Our Story',
-      description: 'Learn about Hera Band\'s journey serving Ramnagar, Jim Corbett, Nainital. Expert wedding musicians bringing authentic celebrations across Uttarakhand for over a decade.',
-      keywords: 'Hera Band history, wedding band Uttarakhand, traditional music Ramnagar, Jim Corbett wedding services, Nainital event band, Uttarakhand celebration experts'
+      title: 'About Herra Band - Traditional Wedding Band in Uttarakhand | Our Story',
+      description: 'Learn about Herra Band\'s journey serving Ramnagar, Jim Corbett, Nainital. Expert wedding musicians bringing authentic celebrations across Uttarakhand for over a decade.',
+      keywords: 'Herra Band history, wedding band Uttarakhand, traditional music Ramnagar, Jim Corbett wedding services, Nainital event band, Uttarakhand celebration experts'
     });
   }
 }

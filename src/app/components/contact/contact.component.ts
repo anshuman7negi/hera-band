@@ -13,7 +13,7 @@ import { SeoService } from '../../services/seo.service';
       <section class="contact-hero">
         <div class="container">
           <h1>Contact Us</h1>
-          <p>Whether you’re planning a wedding, engagement, or a grand celebration, Hera Band is here to bring the perfect blend of music, tradition, and festivity to your special day.</p>
+          <p>Whether you’re planning a wedding, engagement, or a grand celebration, Herra Band is here to bring the perfect blend of music, tradition, and festivity to your special day.</p>
         </div>
       </section>
 
@@ -114,7 +114,7 @@ import { SeoService } from '../../services/seo.service';
                 <i class="fas fa-envelope"></i>
                 <div>
                   <h3>Email</h3>
-                  <p><a href="mailto:info@heraband.com">info@heraband.com</a></p>
+                  <p><a href="mailto:info@Herraband.com">info@Herraband.com</a></p>
                 </div>
               </div>
 
@@ -180,9 +180,9 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
     this.seoService.updateSEO({
-      title: 'Contact Hera Band - Wedding Band Booking in Ramnagar, Uttarakhand',
-      description: 'Contact Hera Band for wedding bookings in Ramnagar, Jim Corbett, Nainital. Get quotes for ghori, baggi, dhol, band services across Uttarakhand. Call +91 98765 43210',
-      keywords: 'contact Hera Band, wedding booking Ramnagar, band contact Uttarakhand, wedding services Jim Corbett, Nainital wedding band booking'
+      title: 'Contact Herra Band - Wedding Band Booking in Ramnagar, Uttarakhand',
+      description: 'Contact Herra Band for wedding bookings in Ramnagar, Jim Corbett, Nainital. Get quotes for ghori, baggi, dhol, band services across Uttarakhand. Call +91 98765 43210',
+      keywords: 'contact Herra Band, wedding booking Ramnagar, band contact Uttarakhand, wedding services Jim Corbett, Nainital wedding band booking'
     });
   }
 

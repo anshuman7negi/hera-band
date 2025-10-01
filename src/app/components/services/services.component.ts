@@ -108,7 +108,7 @@ export class ServicesComponent implements OnInit {
   services = [
     {
       name: 'Ghori',
-      description: 'The Ghori holds a special place in Indian weddings, symbolizing pride, tradition, and celebration. At Hera Band, we provide beautifully decorated Ghori (wedding horse) that adds grandeur to your Baraat procession.',
+      description: 'The Ghori holds a special place in Indian weddings, symbolizing pride, tradition, and celebration. At Herra Band, we provide beautifully decorated Ghori (wedding horse) that adds grandeur to your Baraat procession.',
       image: 'https://shopshaadi.com/wp-content/uploads/2024/03/4-6.webp',
       features: [
         'A well-groomed and decorated horse with traditional embellishments',
@@ -119,7 +119,7 @@ export class ServicesComponent implements OnInit {
     },
     {
       name: 'Baggi',
-      description: 'A wedding is incomplete without the charm of a Baggi (decorated carriage) – a symbol of royalty and grandeur. At Hera Band, we provide beautifully adorned Baggis that make the groom’s entry a moment to remember.',
+      description: 'A wedding is incomplete without the charm of a Baggi (decorated carriage) – a symbol of royalty and grandeur. At Herra Band, we provide beautifully adorned Baggis that make the groom’s entry a moment to remember.',
       image: 'https://www.shivmohanband.com/images/g3.jpg',
       features: [
         'Elegantly decorated carriage with flowers, lights, and traditional designs',
@@ -141,7 +141,7 @@ export class ServicesComponent implements OnInit {
     },
     {
       name: 'Band & Dhol',
-      description: 'No Indian wedding or event is complete without the energetic beats of Dhol and the vibrant sounds of the Band. At Hera Band, we bring together the perfect blend of traditional and modern rhythms that set the tone for joy, dance, and unforgettable memories.With Hera Band’s Band & Dhol, every moment of your celebration is filled with energy, rhythm, and cultural charm.',
+      description: 'No Indian wedding or event is complete without the energetic beats of Dhol and the vibrant sounds of the Band. At Herra Band, we bring together the perfect blend of traditional and modern rhythms that set the tone for joy, dance, and unforgettable memories.With Herra Band’s Band & Dhol, every moment of your celebration is filled with energy, rhythm, and cultural charm.',
       image: 'https://5.imimg.com/data5/LH/XR/NN/SELLER-95328874/wedding-dhol-band-services-in-gurgaon-7289960600.jpg',
       features: [
         'Live band music with trumpets, clarinets, and shehnai for a rich traditional feel',
@@ -152,7 +152,7 @@ export class ServicesComponent implements OnInit {
     },
     {
       name: 'Flower Chhatar',
-      description: 'The Flower Chhatar (floral canopy) is one of the most graceful and stylish elements of an Indian wedding. Traditionally carried over the groom during the Baraat or over the bride during her entry, it adds a royal touch while blessing the couple with beauty and elegance.At Hera Band, we provide stunning Flower Chhatars designed to match your wedding theme and make your entry truly spectacular.',
+      description: 'The Flower Chhatar (floral canopy) is one of the most graceful and stylish elements of an Indian wedding. Traditionally carried over the groom during the Baraat or over the bride during her entry, it adds a royal touch while blessing the couple with beauty and elegance.At Herra Band, we provide stunning Flower Chhatars designed to match your wedding theme and make your entry truly spectacular.',
       image: 'https://5.imimg.com/data5/SELLER/Default/2025/9/547810527/QV/HD/LY/98186692/wedding-flower-decoration-service.jpg',
       features: [
         'Fresh flower arrangements',
@@ -163,7 +163,7 @@ export class ServicesComponent implements OnInit {
     },
     {
       name: 'Lights & Decoration',
-      description: 'Every celebration deserves a setting that feels magical. With Hera Band’s Lights & Decoration service, we transform ordinary venues into stunning spaces filled with beauty, warmth, and festive vibes. From vibrant wedding lights to elegant floral and thematic decorations, we create the perfect ambiance for your big day.',
+      description: 'Every celebration deserves a setting that feels magical. With Herra Band’s Lights & Decoration service, we transform ordinary venues into stunning spaces filled with beauty, warmth, and festive vibes. From vibrant wedding lights to elegant floral and thematic decorations, we create the perfect ambiance for your big day.',
       image: 'https://5.imimg.com/data5/SELLER/Default/2023/10/353933863/JK/MF/FR/102256646/marriage-light-decoration-service-500x500.png',
       features: [
         'Creative lighting setups – LED, fairy lights, chandeliers & traditional lamps',
@@ -181,7 +181,7 @@ export class ServicesComponent implements OnInit {
 
   ngOnInit() {
     this.seoService.updateSEO({
-      title: 'Wedding Services - Ghori, Baggi, Dhol, Band & Shehnai | Hera Band Uttarakhand',
+      title: 'Wedding Services - Ghori, Baggi, Dhol, Band & Shehnai | Herra Band Uttarakhand',
       description: 'Complete wedding services in Uttarakhand: Traditional ghori, baggi, dhol, band & shehnai, flower chhatar, lights & decoration. Serving Ramnagar, Jim Corbett, Nainital.',
       keywords: 'wedding ghori Ramnagar, baggi service Uttarakhand, dhol band Jim Corbett, shehnai Nainital, wedding decoration Uttarakhand, flower chhatar, wedding lights'
     });
