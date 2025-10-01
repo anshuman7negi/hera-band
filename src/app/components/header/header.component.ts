@@ -18,6 +18,7 @@ import { CommonModule } from '@angular/common';
           <a routerLink="/home" routerLinkActive="active" (click)="closeMenu()">Home</a>
           <a routerLink="/about" routerLinkActive="active" (click)="closeMenu()">About</a>
           <a routerLink="/services" routerLinkActive="active" (click)="closeMenu()">Services</a>
+           <a routerLink="/gallery" routerLinkActive="active" (click)="closeMenu()">Gallery</a>
           <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</a>
         </nav>
         
