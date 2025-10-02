@@ -17,9 +17,19 @@ import { SeoService } from '../../services/seo.service';
           <p>Creating magical moments with traditional music and celebrations across Uttarakhand. Your perfect wedding celebration starts here.</p>
           <button class="cta-button" (click)="navigateToContact()">Book Now</button>
         </div>
-        <div class="hero-image">
-          <img src="https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg" alt="Traditional Indian Wedding Band" />
-        </div>
+
+<div class="hero-image">
+  <div class="carousel">
+    <div 
+      class="carousel-track" 
+      [style.transform]="'translateX(-' + currentIndex * 100 + '%)'">
+      <div class="carousel-item" *ngFor="let img of heroImages">
+        <img [src]="img" alt="Wedding Band Showcase">
+      </div>
+    </div>
+  </div>
+</div>
+
       </section>
 
       <!-- About Section -->
@@ -72,7 +82,7 @@ import { SeoService } from '../../services/seo.service';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
-  
+
   services = [
     {
       name: 'Ghori',
@@ -113,10 +123,21 @@ export class HomeComponent implements OnInit {
     { src: 'https://5.imimg.com/data5/SELLER/Default/2023/10/353933863/JK/MF/FR/102256646/marriage-light-decoration-service-500x500.png', alt: 'Band performance' }
   ];
 
+  heroImages = [
+  'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg',
+  'https://5.imimg.com/data5/LH/XR/NN/SELLER-95328874/wedding-dhol-band-services-in-gurgaon-7289960600.jpg',
+  'https://5.imimg.com/data5/SELLER/Default/2025/9/547810527/QV/HD/LY/98186692/wedding-flower-decoration-service.jpg',
+  'https://5.imimg.com/data5/SELLER/Default/2023/10/353933863/JK/MF/FR/102256646/marriage-light-decoration-service-500x500.png'
+];
+
+
+
   constructor(
     private router: Router,
     private seoService: SeoService
-  ) {}
+  ) { }
+
+  currentIndex = 0;
 
   ngOnInit() {
     this.seoService.updateSEO({
@@ -124,7 +145,14 @@ export class HomeComponent implements OnInit {
       description: 'Premier wedding band in Ramnagar, Jim Corbett, Nainital. Traditional dhol, baggi, ghori, band & shehnai services across Uttarakhand. Book now for unforgettable celebrations.',
       keywords: 'wedding band Ramnagar, band Jim Corbett, Nainital wedding band, Uttarakhand band services, dhol baggi lights Ramnagar, wedding music Uttarakhand'
     });
+
+     setInterval(() => {
+    this.currentIndex = (this.currentIndex + 1) % this.heroImages.length;
+  }, 3000);
+
   }
+
+  
 
   navigateToContact() {
     this.router.navigate(['/contact']);
